@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <section class=" header">
+        <div class="btn-container">
+            <button class="btn new-game-btn">New Game</button>
+            <button class="btn hint-btn">Hint</button>
+        </div>
+        <div class="try-hint">
+            <span class="try">💚</span>
+            <span class="try">💚</span>
+            <span class="try">💚</span>
+        </div>
+        <div class="clicking-counter">
+            <span>👆</span>
+            <span>:</span>
+            <span class="clicked-counter">00</span>
+        </div>
+        <div class="timer">
+            <span class="minutes">01</span>
+            <span>:</span>
+            <span class="seconds">30</span>
+        </div>
+    </section>
+
+    <section class="container cards-container">
+       
+    </section>
+    <audio class="img-equal" src="audio/img-equal.wav" preload="auto"></audio>
+    <audio class="img-not-equal" src="audio/not-equal.wav" preload="auto"></audio>
+    <audio class="game-over" src="audio/game-over.wav"  preload="auto"></audio>
+    <audio class="victory" src="audio/victory.wav"  preload="auto"></audio>
+    <div class="confetti">
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+    </div>
+    <div class="winner">
+        Winner Winner ✨✨✨✨
+    </div>
+
+   
+        <div class="lose-container">
+            <p class="lose-title">YOU LOSE THE GAME 🧨🎇🧨</p>
+            <div class='sad'>
+                <div class='tear'></div>
+                <div class='tear2'></div>
+                <div class='face'>
+                    <div class='eyebrow'>︶</div>
+                    <div class='eyebrow'>︶</div>
+                    <div class='eye'></div>
+                    <div class='eye1'></div>
+                    <div class='mouth'></div>
+                </div>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
